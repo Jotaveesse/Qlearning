@@ -9,6 +9,11 @@ Q_TABLE = None
 def save_table(location, table):
     numpy.savetxt(location, table)
 
+def save_best_action(location, table):
+    new_table = [numpy.argmax(row) for row in table]
+    best_actions = [ACTIONS[index] for index in new_table]
+    numpy.savetxt(location, best_actions, fmt='%s')
+    
 def load_table(location):
     try:
         with open(location) as file:
@@ -102,7 +107,7 @@ def explore(socket, times, start):
 
 def main():
     global Q_TABLE
-    socket = cn.connect(2037)
+    socket = cn.connect(2039)
 
     if(socket != 0):
         while True:
@@ -131,6 +136,11 @@ def main():
                     else:
                         print('Aperte Enter para avançar 1 passo, digite algo para terminar\n')
                         navigate(socket)
+                case 'save best action':
+                    if Q_TABLE is None:
+                        print('Carregue uma tabela antes')
+                    else:
+                        save_best_action('best_actions.txt', Q_TABLE)
                 case 'exit':
                     socket.close()
                     break
