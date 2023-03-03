@@ -1,143 +1,96 @@
-0
-jump
-left !
-right / left !
-right
-
-1
-left
-left !
-right
-jump
-
-2
 jump
 right
-south || left/right
-left
-
-3
 jump
-left
-right
-jump / right
-
-4
-left
-right !
-right
-jump
-
-5
-jump
-left / right
-left
-right / jump !
-
-6
-left
-right
-right
-jump !
-
-7
-jump
-left
-right !
-right /jump
-
-8
-left !
-right
-right
-jump
-
-9
-left
-right
-right !
-jump !
-
-10
-left !
-left
-right !
-jump !
-
-11
-right /left
-right
-jump
-left
-
-12
-left / right
-right !
-jump !
-left !
-
-13
-left
-left
-right / jump
-jump
-
-14
-jump
-left !
-left !
-right
-
-15
-jump / right
-left !
-left
-right !
-
-16
-jump
-left !
-left
-right !
-
-17
-left
-right
-right
-jump
-
-18
-left
-left
-right
-jump
-
-19
-left
-left
-right
-jump
-
-20
-left
-left
-right
-jump
-
-21
-jump
-left
-left
-right
-
-22
 jump
 left
 right
 right
-
-23
+jump
+left
+jump
+jump
+left
+jump
+right
+left
+jump
+left
+left
+jump
+jump
+right
+right
+jump
 left
 right
+right
+jump
+left
+jump
+left
+left
+jump
+left
+right
+right
+jump
+left
+right
+right
+jump
+left
+right
+right
+jump
+left
+right
+jump
+left
+left
+right
+jump
+left
+left
+right
+right
+jump
+left
+jump
+left
+left
+jump
+right
+jump
+right
+jump
+left
+left
+right
+left
+left
+right
+jump
+left
+left
+right
+jump
+left
+left
+right
+jump
+left
+right
+right
+jump
+jump
+left
+right
+right
+jump
+left
+left
+right
+left
+left
 right
 jump
